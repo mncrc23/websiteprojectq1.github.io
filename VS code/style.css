@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background\ image.png.png);
+    background-size: 100% 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.header{
+    padding: 0%;
+    height: 14%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: center;
+    background-color: darkslategray;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+    flex: 100;
+}
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background: darkslategray;
+    text-align: center;
+    margin: 8px 40px;
+    box-sizing: border-box;
+}
+.navbar:hover{
+    color: red;
+    background-color: transparent;
+}
+.navbar a:hover{
+    color: red;
+}
+.btn{
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+    border: none;
+}
+.btn:hover{
+    color: red;
+}
+.btn a:visited{
+    color: green;
+}
+.btn a:hover{
+    color: red;
+}
+.btn a:link{
+    text-decoration: none;
+}
+.content{
+    text-align: center;
+    margin-top: 15%;
+}
+.content h1{
+    font-size: 80px;
+    color: black;
+    padding: 0;
+    margin: 250px;
+    border-style: transparent;
+    text-align: center;
+    cursor: text;
+}
+.content h1:hover{
+    color: red;
+}
+.content p{
+    font-size: 40px;
+    color: black;
+    padding: 0;
+    margin: 10%;
+    text-align: center;
+    cursor: vertical-text;
+    background-color: teal;
+    border: 20px 8px;
+}
+.content p:hover{
+    color: red;
+}
